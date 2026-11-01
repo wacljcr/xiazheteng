@@ -18,8 +18,8 @@ Clone with submodules — the iSH and PRoot forks are submodules, and a clone
 without them will fail at the native build step:
 
 ```sh
-git clone --recurse-submodules https://github.com/OpenMinis/OpenMinis.git
-cd OpenMinis
+git clone --recurse-submodules https://github.com/wacljcr/xiazheteng.git
+cd ms
 
 # Already cloned without --recurse-submodules?
 git submodule update --init --recursive
@@ -27,8 +27,8 @@ git submodule update --init --recursive
 
 | Submodule | Repository | Used by |
 |---|---|---|
-| `deps/ish` | [OpenMinis/ish-arm64](https://github.com/OpenMinis/ish-arm64) | iOS sandbox kernel |
-| `deps/proot` | [OpenMinis/proot](https://github.com/OpenMinis/proot) | Android sandbox |
+| `deps/ish` | [ms/ish-arm64](https://github.com/ms/ish-arm64) | iOS sandbox kernel |
+| `deps/proot` | [ms/proot](https://github.com/ms/proot) | Android sandbox |
 
 ### Build-time customization
 
