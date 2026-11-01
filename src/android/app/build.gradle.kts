@@ -63,7 +63,7 @@ android {
         // prerelease flag and cut a tag at its first '-') see them as version
         // 0 and never offer them. UPDATE_CHANNEL is the channel a fresh
         // install starts on; the user can switch to beta in About.
-        buildConfigField("String", "RELEASE_REPO", "\"OpenMinis/OpenMinis\"")
+        buildConfigField("String", "RELEASE_REPO", "\"wacljcr/xiazheteng\"")
         buildConfigField("String", "UPDATE_CHANNEL", "\"stable\"")
 
         ndk {
@@ -107,7 +107,7 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
         release {
-            // [OpenMinis#363] Produce native-debug-symbols.zip alongside the
+            // [ms#363] Produce native-debug-symbols.zip alongside the
             // APK so a stripped release .so can still be symbolicated after
             // the fact (`ndk-stack -sym`, or upload to Play Console). Without
             // it every native frame in a field report is a bare PC and the
