@@ -11,10 +11,10 @@
   What helps instead:
 
     • Bugs and feature requests → open an issue
-      https://github.com/OpenMinis/OpenMinis/issues
+      https://github.com/wacljcr/xiazheteng/issues
 
-    • Use cases and workflows   → OpenMinis/AwesomeMinis  (accepts PRs)
-    • Skills                    → OpenMinis/MinisSkills   (accepts PRs)
+    • Use cases and workflows   → ms/AwesomeMinis  (accepts PRs)
+    • Skills                    → ms/MinisSkills   (accepts PRs)
     • Questions and discussion  → the Telegram group, linked in the README
 
   See CONTRIBUTING.md for the full picture.
