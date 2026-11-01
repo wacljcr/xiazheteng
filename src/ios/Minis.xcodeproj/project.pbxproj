@@ -1460,6 +1460,7 @@
 		BB1000012F700000000000AA /* MinisTests */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (E5EXC0001 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (Standalone, ); path = MinisTests; sourceTree = "<group>"; };
 		E5ACVSYNC0000000000000A1 /* AIChatView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = AIChatView; sourceTree = "<group>"; };
 		E5CVSYNC00000000000000A1 /* ContentView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ContentView; sourceTree = "<group>"; };
+		E5RHUB00000000000000A1 /* RuntimeHub */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = RuntimeHub; sourceTree = "<group>"; };
 		E5MDSYNC00000000000000A1 /* Markdown */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Markdown; sourceTree = "<group>"; };
 		E5TH00012 /* MinisTestHost */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = MinisTestHost; sourceTree = "<group>"; };
 		E5V3SYNC00000000000000A1 /* CollectionViewMessageListV3 */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CollectionViewMessageListV3; sourceTree = "<group>"; };
@@ -2003,6 +2004,7 @@
 			isa = PBXGroup;
 			children = (
 				E5CVSYNC00000000000000A1 /* ContentView */,
+				E5RHUB00000000000000A1 /* RuntimeHub */,
 				E5SRS0011 /* SessionRefreshScheduler.swift */,
 				F1V00014 /* Alarms */,
 				F1V00015 /* Backup */,

@@ -94,6 +94,24 @@ struct SettingsSheet: View {
                 }
 
                 Section("Agent Runtime") {
+                    // [T-runtime-hub] Developer Runtime Hub: on-demand install
+                    // of the tweak-dev toolchains (Theos / Codex / CoreTools /
+                    // ReverseTools / BuildTools / Node.js / Python / OLLVM).
+                    // Nothing is bundled — archives are fetched from the
+                    // user's own GitHub repos into the Linux sandbox.
+                    NavigationLink {
+                        RuntimeHubView()
+                    } label: {
+                        Label {
+                            Text(AppLocalized("开发环境 Runtime Hub"))
+                        } icon: {
+                            Image(systemName: "hammer.circle.fill")
+                                .font(.system(size: 9))
+                                .foregroundStyle(.white)
+                                .frame(width: 21, height: 21)
+                                .background(.orange, in: Circle())
+                        }
+                    }
                     // [T-tools-granular-switches] First row: per-tool switches.
                     NavigationLink {
                         ToolsSettingsView()
