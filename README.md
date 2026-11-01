@@ -1,11 +1,11 @@
-# OpenMinis
+# ms
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%20%7C%20Android-lightgrey.svg)](#beta-programme)
 
 **Your private, on-device AI agent.**
 
-OpenMinis brings leading models — Claude, GPT, Gemini and more — into a native
+ms brings leading models — Claude, GPT, Gemini and more — into a native
 mobile experience, and gives them a real computer to work with: a full Linux
 shell running on your device, browser automation, extensible skills, persistent
 memory, and deep system integration.
@@ -17,13 +17,13 @@ where a product's advantage lies. The best agent emerges from a tight feedback
 loop with the people who use it — their expectations and their reports are
 what converge on the product.**
 
-Official website: **[openminis.app](https://openminis.app)**
+Official website: **[ms.app](https://ms.app)**
 
 <a href="https://apps.apple.com/app/id6759188481">
   <img alt="Download on the App Store" height="48" src="assets/badge-appstore.svg" />
 </a>
 &nbsp;
-<a href="https://github.com/OpenMinis/OpenMinis/releases">
+<a href="https://github.com/wacljcr/xiazheteng/releases">
   <img alt="Get the APK on GitHub" height="48" src="assets/badge-android.svg" />
 </a>
 
@@ -60,7 +60,7 @@ A few things people actually use it for:
 - **Share anything into a calendar event** — send a page or message to Minis via the
   iOS Share Sheet and it creates the event, time and place included.
 
-**→ [OpenMinis/AwesomeMinis](https://github.com/OpenMinis/AwesomeMinis)** — a curated,
+**→ [ms/AwesomeMinis](https://github.com/ms/AwesomeMinis)** — a curated,
 community-contributed collection of use cases and workflows across health,
 productivity, research, finance and developer tooling.
 
@@ -78,7 +78,7 @@ for it: **skills built for Claude, Codex, OpenClaw or Hermes Agent generally run
 Minis as-is.** Skills that have been adapted to Minis' tools simply run better —
 they can reach the Linux shell, device integrations and native offloads directly.
 
-**→ [OpenMinis/MinisSkills](https://github.com/OpenMinis/MinisSkills)** — skills
+**→ [ms/MinisSkills](https://github.com/ms/MinisSkills)** — skills
 adapted for Minis alongside ones built for it from scratch, covering TTS, search,
 media downloads, health analysis, cloud APIs and more.
 
@@ -111,7 +111,7 @@ and new features land first.
 
 **→ [Join the TestFlight beta](https://testflight.apple.com/join/3BdkA5c3)**
 
-On Android, the [releases page](https://github.com/OpenMinis/OpenMinis/releases)
+On Android, the [releases page](https://github.com/wacljcr/xiazheteng/releases)
 always carries the latest APK.
 
 ---
@@ -127,8 +127,8 @@ from source** rather than committed as binaries.
 The short version:
 
 ```sh
-git clone --recurse-submodules https://github.com/OpenMinis/OpenMinis.git
-cd OpenMinis
+git clone --recurse-submodules https://github.com/wacljcr/xiazheteng.git
+cd ms
 
 # iOS  — needs Go 1.25+ and Xcode's Metal Toolchain
 #        (xcodebuild -downloadComponent MetalToolchain)
@@ -166,16 +166,16 @@ scripts/          Rootfs preparation and developer tooling
 
 ## Acknowledgements
 
-OpenMinis stands on a great deal of open-source work. Our thanks to the
+ms stands on a great deal of open-source work. Our thanks to the
 maintainers of these projects — the full inventory, with versions and license
 terms, is in [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
 **The sandbox** — the heart of the product:
 
 - **[iSH](https://github.com/ish-app/ish)** (GPLv3) — Linux usermode emulation on
-  iOS. We run [an ARM64 fork](https://github.com/OpenMinis/ish-arm64).
+  iOS. We run [an ARM64 fork](https://github.com/ms/ish-arm64).
 - **[PRoot](https://github.com/termux/proot)** (GPLv2) — user-space chroot for the
-  Android sandbox, via [our fork](https://github.com/OpenMinis/proot);
+  Android sandbox, via [our fork](https://github.com/ms/proot);
   **[talloc](https://talloc.samba.org)** (LGPLv3+) underpins it.
 - **[Alpine Linux](https://alpinelinux.org)** — the minirootfs the sandbox boots.
 
@@ -200,10 +200,10 @@ Apple / Swift Server Workgroup packages (Apache-2.0).
 
 ## License
 
-OpenMinis is licensed under the **[GNU General Public License v3.0](LICENSE)**.
+ms is licensed under the **[GNU General Public License v3.0](LICENSE)**.
 
-The app links GPL-licensed components — [iSH](https://github.com/OpenMinis/ish-arm64)
-(GPLv3) and [PRoot](https://github.com/OpenMinis/proot) (GPLv2) — so the combined
+The app links GPL-licensed components — [iSH](https://github.com/ms/ish-arm64)
+(GPLv3) and [PRoot](https://github.com/ms/proot) (GPLv2) — so the combined
 work is distributed under GPLv3. Bundled third-party licenses are listed in
 [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md).
 
@@ -213,10 +213,10 @@ work is distributed under GPLv3. Bundled third-party licenses are listed in
 
 - **Telegram**: [Join the group](https://t.me/+2NzhOJuzRyI1YmM1)
 - **Issues**: Bug reports, feature requests and discussion via
-  [GitHub Issues](https://github.com/OpenMinis/OpenMinis/issues)
+  [GitHub Issues](https://github.com/wacljcr/xiazheteng/issues)
 
 This repository is a mirror of a private development tree, so it **does not
 accept pull requests** — there is nowhere for them to land. Issues are the way
-to shape the product, and [AwesomeMinis](https://github.com/OpenMinis/AwesomeMinis)
-and [MinisSkills](https://github.com/OpenMinis/MinisSkills) both do take
+to shape the product, and [AwesomeMinis](https://github.com/ms/AwesomeMinis)
+and [MinisSkills](https://github.com/ms/MinisSkills) both do take
 contributions. See [CONTRIBUTING.md](CONTRIBUTING.md).
