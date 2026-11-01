@@ -17,13 +17,13 @@ on the work.
 
 Everything else. The product is shaped by what people report:
 
-- **[Open an issue](https://github.com/OpenMinis/OpenMinis/issues)** — bugs,
+- **[Open an issue](https://github.com/wacljcr/xiazheteng/issues)** — bugs,
   crashes, papercuts, feature requests, questions about behaviour. A clear
   report is worth more to us than a patch, because it tells us what to build.
 - **Share what you have built** — real workflows and use cases go in
-  **[AwesomeMinis](https://github.com/OpenMinis/AwesomeMinis)**, which does
+  **[AwesomeMinis](https://github.com/ms/AwesomeMinis)**, which does
   take contributions.
-- **Write a skill** — **[MinisSkills](https://github.com/OpenMinis/MinisSkills)**
+- **Write a skill** — **[MinisSkills](https://github.com/ms/MinisSkills)**
   also takes contributions, and skills are how most people extend Minis
   without touching the app at all.
 - **Talk to us** — the [Telegram group](https://t.me/+2NzhOJuzRyI1YmM1) is
